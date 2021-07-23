@@ -1,0 +1,13 @@
+@media screen and (max-width: 1460px){
+    section div.boxView{
+        width: 41%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 1060px){
+    section div.boxView{
+        width: 100%;
+        height: auto;
+    }
+}

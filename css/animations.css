@@ -1,0 +1,30 @@
+::-webkit-scrollbar {
+    display: none;
+}
+
+header nav a:hover{
+    background-color: gray;
+    box-shadow: 1px 1px 6px 0px gray;
+}
+
+header nav a:active{
+    color: gray;
+    background-color: rgb(63, 63, 63);
+    box-shadow: 1px 1px 6px 1px gray;
+}
+
+header nav a:focus{
+    background-color: rgb(63, 63, 63);
+}
+
+section div.boxView:hover{
+    box-shadow: 0px 0px 10px 2px rgba(128, 128, 128, 0.514);
+    cursor: pointer;
+    transform: scale(1.25,1.25);
+}
+
+#imageZoom:hover{
+    cursor: pointer;
+}
+
+
